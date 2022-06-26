@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+body h3 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 30px;
+}
+
+body p {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    max-width: 1440px;
+    margin: auto;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.headrests {
+    box-sizing: border-box;
+}
+
+.headrests button {
+    background-color: black;
+}
+
+.headrests a {
+    text-decoration: none;
+    color: hsl(31, 77%, 52%);
+}
+
+main {
+    display: flex;
+    margin: auto;
+    max-width: 720px;
+}
+
+.sedan {
+    width: 100%;
+}
+
+.suv {
+    width: 100%;
+}
+
+.luxury {
+    width: 100%;
+}
+
+img {
+    margin-bottom: 25px;
+}
+
+h3 {
+    font-family: "big shoulder display" cursive;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    margin-bottom: 25px;
+}
+
+p {
+    font-family: "lexend Deca" sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.5;
+    text-align: left;
+}
+
+button {
+    padding: 3em, 5em;
+    background-color: hsl(0, 0%, 95%);
+    height: 35px;
+    width: 120px;
+    margin-top: 70px;
+    border-style: hidden;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+}
+
+.sedan button:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border-style: ridge;
+    border-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+.suv button:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border-style: ridge;
+    border-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+.luxury button:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border-style: ridge;
+    border-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+.suv button {
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury button {
+    color: hsl(179, 100%, 13%);
+}
+
+.sedan button {
+    color: hsl(31, 77%, 52%);
+}
+
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em;
+}
+
+.suv {
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+}
+
+@media screen and (max-width:745px) {
+    main {
+        box-sizing: border-box;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 100%
+    }
+}
